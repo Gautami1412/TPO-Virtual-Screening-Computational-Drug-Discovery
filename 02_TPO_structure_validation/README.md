@@ -9,5 +9,5 @@ TPO_z_score.png: Compares the model's energy profile to that of proteins in PDB.
                   (z-score- -10.57: confirming the model falls within the expected range of experimentally determined protein structures)
 
 * *The Procheck tool from SAVES server assess the stereochemical quality of protein models.* *
-Ramchandran_plpt.png: The plot provides both the restricted and favoured regions, confirming the stereochemical quality of the model. 
+Ramchandran_plot.png: The plot provides both the restricted and favoured regions, confirming the stereochemical quality of the model. 
                       The graph shows >90% of residues in favored zones, confirming a high degree of accuracy in its model representation. 
