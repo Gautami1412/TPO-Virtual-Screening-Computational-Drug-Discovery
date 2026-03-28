@@ -1,3 +1,0 @@
-# Description
-
-The following file contains .pdb structures of the TPO-ligand after docking on CBdock, and the best highest energy score attained after performing CBdock is chosen. 
