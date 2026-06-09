@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" font-family="DejaVu Sans, Arial, sans-serif">
+  <rect width="820" height="470" fill="white"/>
+  <text x="410" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#1f3a5f">Binding affinity to TPO: natural flavonoids outperform all four drugs</text>
+
+  <!-- legend -->
+  <rect x="540" y="48" width="14" height="14" fill="#2a9d8f"/><text x="560" y="60" font-size="12" fill="#333">Natural flavonoid</text>
+  <rect x="690" y="48" width="14" height="14" fill="#e76f51"/><text x="710" y="60" font-size="12" fill="#333">FDA drug</text>
+
+  <!-- bars: x start 235, scale 48 px / (kcal/mol) -->
+  <!-- Rutin -9.6 (lead, navy) -->
+  <text x="225" y="96" text-anchor="end" font-size="13" font-weight="bold" fill="#1f3a5f">Rutin</text>
+  <rect x="235" y="80" width="461" height="28" fill="#1f3a5f"/>
+  <text x="704" y="99" font-size="13" font-weight="bold" fill="#222">−9.6</text>
+  <text x="690" y="99" text-anchor="end" font-size="11" font-weight="bold" fill="#ffffff">★ lead</text>
+
+  <!-- Kaempferol -9.3 -->
+  <text x="225" y="141" text-anchor="end" font-size="13" fill="#333">Kaempferol</text>
+  <rect x="235" y="125" width="446" height="28" fill="#2a9d8f"/>
+  <text x="689" y="144" font-size="13" font-weight="bold" fill="#222">−9.3</text>
+
+  <!-- Mearnsitrin -9.3 -->
+  <text x="225" y="186" text-anchor="end" font-size="13" fill="#333">Mearnsitrin</text>
+  <rect x="235" y="170" width="446" height="28" fill="#2a9d8f"/>
+  <text x="689" y="189" font-size="13" font-weight="bold" fill="#222">−9.3</text>
+
+  <!-- Rosmarinic acid -8.6 -->
+  <text x="225" y="231" text-anchor="end" font-size="13" fill="#333">Rosmarinic acid</text>
+  <rect x="235" y="215" width="413" height="28" fill="#2a9d8f"/>
+  <text x="656" y="234" font-size="13" font-weight="bold" fill="#222">−8.6</text>
+
+  <!-- Propylthiouracil -5.6 -->
+  <text x="225" y="276" text-anchor="end" font-size="13" fill="#333">Propylthiouracil</text>
+  <rect x="235" y="260" width="269" height="28" fill="#e76f51"/>
+  <text x="512" y="279" font-size="13" font-weight="bold" fill="#222">−5.6</text>
+
+  <!-- Carbimazole -5.0 -->
+  <text x="225" y="321" text-anchor="end" font-size="13" fill="#333">Carbimazole</text>
+  <rect x="235" y="305" width="240" height="28" fill="#e76f51"/>
+  <text x="483" y="324" font-size="13" font-weight="bold" fill="#222">−5.0</text>
+
+  <!-- Methylthiouracil -4.8 -->
+  <text x="225" y="366" text-anchor="end" font-size="13" fill="#333">Methylthiouracil</text>
+  <rect x="235" y="350" width="230" height="28" fill="#e76f51"/>
+  <text x="473" y="369" font-size="13" font-weight="bold" fill="#222">−4.8</text>
+
+  <!-- Methimazole -3.6 -->
+  <text x="225" y="411" text-anchor="end" font-size="13" fill="#333">Methimazole</text>
+  <rect x="235" y="395" width="173" height="28" fill="#e76f51"/>
+  <text x="416" y="414" font-size="13" font-weight="bold" fill="#222">−3.6</text>
+
+  <line x1="235" y1="70" x2="235" y2="432" stroke="#444" stroke-width="1"/>
+  <text x="470" y="458" text-anchor="middle" font-size="12" fill="#555">Docking binding energy (kcal/mol) — more negative = stronger binding</text>
+</svg>

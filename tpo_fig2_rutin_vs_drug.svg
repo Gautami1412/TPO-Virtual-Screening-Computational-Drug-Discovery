@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" font-family="DejaVu Sans, Arial, sans-serif">
+  <rect width="760" height="430" fill="white"/>
+  <text x="380" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f3a5f">Rutin (lead) vs Methimazole (current drug): stronger binding, far safer</text>
+
+  <!-- legend -->
+  <rect x="250" y="44" width="13" height="13" fill="#1f3a5f"/><text x="268" y="55" font-size="12" fill="#333">Rutin (natural lead)</text>
+  <rect x="430" y="44" width="13" height="13" fill="#e76f51"/><text x="448" y="55" font-size="12" fill="#333">Methimazole (FDA drug)</text>
+
+  <!-- LEFT PANEL: binding affinity (magnitude), baseline y=350, scale 27/unit -->
+  <text x="200" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f3a5f">Binding affinity</text>
+  <line x1="80" y1="80" x2="80" y2="350" stroke="#444"/>
+  <line x1="80" y1="350" x2="360" y2="350" stroke="#444"/>
+  <rect x="120" y="91" width="70" height="259" fill="#1f3a5f"/>
+  <text x="155" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">−9.6</text>
+  <rect x="250" y="253" width="70" height="97" fill="#e76f51"/>
+  <text x="285" y="246" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">−3.6</text>
+  <text x="155" y="368" text-anchor="middle" font-size="12" fill="#333">Rutin</text>
+  <text x="285" y="368" text-anchor="middle" font-size="12" fill="#333">Methimazole</text>
+  <text x="220" y="392" text-anchor="middle" font-size="11" fill="#777">|kcal/mol| — taller = stronger</text>
+
+  <!-- RIGHT PANEL: LD50, baseline y=350, scale 270/5000 = 0.054/unit -->
+  <text x="560" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f3a5f">Predicted oral LD50</text>
+  <line x1="440" y1="80" x2="440" y2="350" stroke="#444"/>
+  <line x1="440" y1="350" x2="720" y2="350" stroke="#444"/>
+  <rect x="480" y="80" width="70" height="270" fill="#1f3a5f"/>
+  <text x="515" y="73" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">5000</text>
+  <rect x="610" y="338" width="70" height="12" fill="#e76f51"/>
+  <text x="645" y="331" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">220</text>
+  <text x="515" y="368" text-anchor="middle" font-size="12" fill="#333">Rutin</text>
+  <text x="645" y="368" text-anchor="middle" font-size="12" fill="#333">Methimazole</text>
+  <text x="580" y="392" text-anchor="middle" font-size="11" fill="#777">mg/kg — taller = safer (~23× safer)</text>
+</svg>
